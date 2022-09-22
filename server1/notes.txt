@@ -1,0 +1,74 @@
+Week 4 Session 2
+
+HOUSEKEEPING:
+    -Please fill out the Mid-Stack Survey!
+        -https://login.codingdojo.com/dashboard/mid-stack-survey
+
+    -This week's assignments: 
+        1. Axios Pokemon API
+        2. Routing Practice
+        3. Faker API
+
+    -Discussion Questions! Due Sunday 11:59PM PST
+
+
+-What is a Server?
+    -HTTP Request/Response Cycle
+
+-Node is a JS runtime enironment
+-Express is a framework for creating servers
+
+-create server.js file, then run npm init -y
+    (-y will say yes to all prompts for you)
+    (this creates the package.json file)
+
+-npm i -g nodemon to install nodemon globally
+    -this package tracks changes and refreshes 
+    browser for you
+
+-app.listen expects a port number and a callback function,
+this is the express function that runs our server
+
+-app.get(req,res) expects a url path and a callback
+
+-the request object is huge, there are certain 
+fields on it we should be aware of, we can add things
+on to it
+-the response object is what the user will get back
+
+-res.send() and res.json()
+
+-Express Middleware:
+    -middleware are any functions that run along the
+    Cycle
+    -you can write your own, there are also built
+    ins we will use often such as:
+
+    -app.use(urlEncoded) 
+    these are import for POST requests. They help
+    us to read the body of our request and get the 
+    part of the data we actually sent, not all the
+    extra stuff that's part of the HTTP object
+
+    app.use() is middleware. Any function we run
+    inside of app.use is going to run before every
+    single route we declare with app.get.
+    we can specify if we want it to only run on a 
+    certain route by passing it the 'URL' before the
+    function.
+
+    we can write our own middleware functions as well,
+    they need to take in req,res,and next. Then we run
+    next which will send the function to the next thing
+    in the route chain.
+
+    -JSON Formatter will make your responses look
+    better in the browser
+
+    -postman: specify verb, choose raw JSON 
+
+    -app.use(express.json()) 
+        -this middleware will run on any post route,
+        and it will parse the data into json and store
+        it into the request object body so we can access
+        it.
