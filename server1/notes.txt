@@ -44,18 +44,24 @@ on to it
     -you can write your own, there are also built
     ins we will use often such as:
 
-    -app.use(urlEncoded) 
-    these are import for POST requests. They help
-    us to read the body of our request and get the 
-    part of the data we actually sent, not all the
-    extra stuff that's part of the HTTP object
-
-    app.use() is middleware. Any function we run
+     app.use() is middleware. Any function we run
     inside of app.use is going to run before every
     single route we declare with app.get.
     we can specify if we want it to only run on a 
     certain route by passing it the 'URL' before the
     function.
+
+    -app.use(express.urlEncoded({extended:true})) 
+    these are import for POST requests. They help
+    us to read the body of our request and get the 
+    part of the data we actually sent, not all the
+    extra stuff that's part of the HTTP object
+
+     -app.use(express.json()) 
+        -this middleware will run on any post route,
+        and it will parse the data into json and store
+        it into the request object body so we can access
+        it.
 
     we can write our own middleware functions as well,
     they need to take in req,res,and next. Then we run
@@ -66,9 +72,3 @@ on to it
     better in the browser
 
     -postman: specify verb, choose raw JSON 
-
-    -app.use(express.json()) 
-        -this middleware will run on any post route,
-        and it will parse the data into json and store
-        it into the request object body so we can access
-        it.
