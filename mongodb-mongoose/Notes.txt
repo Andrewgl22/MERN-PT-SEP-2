@@ -1,0 +1,23 @@
+WEEK 5 SESSION 1
+
+MongoDB and Mongoose
+
+HOUSEKEEPING: 
+
+-This week's assignment: Jokes API
+-Discussion Questions!
+
+-MongoDB Database
+    -SQL vs NoSQL
+    -Ways to Access MongoDB (Shell,Compass,Atlas,Local)
+    -Creating our first Schema/Model
+    -timestamps:true adds a created at and updated at field to each document
+
+-Mongoose
+    -gives us functions we can use to query our MongoDB 
+
+
+SQL = Structured   NoSQL = Non Structured
+
+
+
