@@ -18,7 +18,7 @@ const MovieList = () => {
 
 
   return (
-    <div className="flex-wrap bg-dark" style={{backgroundImage:"https://insights.regencylighting.com/hs-fs/hubfs/Blog_Images/Products_for_movie_theatres.jpeg?width=724&height=523&name=Products_for_movie_theatres.jpeg"}}>
+    <div className="flex-wrap bg-dark">
         <h1>Movie List</h1>
         <div className="d-flex flex-wrap ">
             {
