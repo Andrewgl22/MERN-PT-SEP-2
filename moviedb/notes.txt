@@ -1,0 +1,19 @@
+WEEK 5 SESSION 3
+
+HOUSEKEEPING:
+
+-Jokes API assignment due Sunday
+-Discussion Questions due Sunday
+
+-MERN EXAM WINDOW OPENS FRIDAY 10/7
+    -Must have 90% of assignments submitted to receive code
+
+    -once you unlock the exam you have 24 hours
+    -Black -complete in under 5 hours, and complete 2 black belt features
+        -once you submit the exam, you will get an extra 24 hours
+        to deploy your exam on AWS
+    -Red  -complete all red belt features in under 5 hours
+    -Orange --complete red belt features in under 24 hours
+
+Movie DB
+

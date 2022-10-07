@@ -1,0 +1,20 @@
+WEEK 6 SESSION 1
+
+HOUSEKEEPING:
+
+-Product Manager I,II,III due on Sunday
+-Discussion Questions due Sunday
+
+-MERN EXAM WINDOW OPENS THIS FRIDAY 10/7
+    -Must have 90% of assignments submitted to receive code, you should be done with
+    Product Manager Assignments, if you complete Authors you will be in great shape
+     
+    -once you unlock the exam you have 24 hours
+    -Black -complete in under 5 hours, and complete 2 black belt features
+        -once you submit the exam, you will get an extra 24 hours
+        to deploy your exam on AWS
+    -Red  -complete all red belt features in under 5 hours
+    -Orange --complete red belt features in under 24 hours
+
+
+
